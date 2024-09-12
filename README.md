@@ -1,4 +1,4 @@
-# Lama Dev School Management Dashboard
+# School Management Dashboard
 
 Tested: OK on my Rpi 3b+
 
