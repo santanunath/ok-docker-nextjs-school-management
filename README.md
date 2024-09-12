@@ -1,4 +1,4 @@
-# School Management Dashboard
+# School Management
 
 Tested: OK on my Rpi 3b+
 
