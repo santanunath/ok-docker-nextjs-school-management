@@ -10,6 +10,7 @@ First, run this
 npm i
 # or
 npm install 
+```
 
 
 Run the development server:
