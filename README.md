@@ -4,7 +4,15 @@ Tested: OK on my Rpi 3b+
 
 ## Getting Started
 
-First, run the development server:
+First, run this 
+
+```bash
+npm i
+# or
+npm install 
+
+
+Run the development server:
 
 ```bash
 npm run dev
