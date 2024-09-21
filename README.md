@@ -35,6 +35,8 @@ http://192.168.0.102:3000/sign-in
 http://192.168.0.102:3000/student
 http://192.168.0.102:3000/admin
 http://192.168.0.102:3000/parent
+http://192.168.0.102:3000/teacher
+http://192.168.0.102:3000/list
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
