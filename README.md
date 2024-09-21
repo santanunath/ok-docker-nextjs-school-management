@@ -1,6 +1,6 @@
 # School Management
 
-Tested: OK on my Rpi 3b+
+## Tested: OK (on my Rpi 3b+)
 
 ## Getting Started
 
