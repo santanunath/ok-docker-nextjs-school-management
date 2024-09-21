@@ -1,5 +1,7 @@
 # School Management
 
+## Developed by: Lama dev
+
 ## Tested: OK (on my Rpi 3b+)
 
 ## Getting Started
