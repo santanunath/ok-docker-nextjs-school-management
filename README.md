@@ -31,12 +31,14 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-http://192.168.0.102:3000/sign-in
-http://192.168.0.102:3000/student
-http://192.168.0.102:3000/admin
-http://192.168.0.102:3000/parent
-http://192.168.0.102:3000/teacher
-http://192.168.0.102:3000/list
+http://localhost:3000/sign-in
+http://localhost:3000/student
+http://localhost:3000/admin
+http://localhost:3000/parent
+http://localhost:3000/teacher
+http://localhost:3000/list
+
+Note: u can replace 'localhost' with IPaddress of your Host computer.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
