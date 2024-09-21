@@ -4,6 +4,8 @@
 
 ## Tested: OK (on my Rpi 3b+)
 
+## No DB. Static data in array
+
 ## Getting Started
 
 First, run this 
