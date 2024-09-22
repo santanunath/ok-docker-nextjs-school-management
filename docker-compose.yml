@@ -1,0 +1,9 @@
+version: '3'
+services:
+    my-nextjs:
+       build: .
+       container_name: my-nextjs-ctr
+       ports:
+          - "3000:3000"
+       command:
+          "npm run start"
