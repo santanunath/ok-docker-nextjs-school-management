@@ -1,23 +1,14 @@
-import Link from 'next/link'
+import Link from "next/link";
 
-const Homepage = () => {
+export default function Homepage() {
   return (
-    
-    <div className=''>
-      Homepage
-      <br />
-      <br />
-      <Link href="/sign-in">Sign-in page</Link>
-      <br />
-      <Link href="/admin">Admin Dashboard</Link>
-      <br />
-      <Link href="/student">Student Dashboard</Link>
-      <br />
-      <Link href="/parent">Parent Dashboard</Link>
-      <br />
-      <Link href="/teacher">Teacher Dashboard</Link>
+    <div>
+     <br/><br/> <h1>Welcome to School Management App</h1>
+     <br/><br/> <Link href={"/admin"}>goto admin page</Link>
+     <br/><br/> <Link href={"/student"}>goto student page</Link>
+     <br/><br/> <Link href={"/parent"}>goto parent page</Link>
+     <br/><br/> <Link href={"/teacher"}>goto teacher page</Link>
+     <br/><br/> <Link href={"/sign-in"}>goto sign-in page</Link>
     </div>
-  )
+  );
 }
-
-export default Homepage
