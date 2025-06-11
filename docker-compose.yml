@@ -1,8 +1,10 @@
-version: '3'
+#version: '3'
+
 services:
-    my-nextjs:
+
+    nextjs-app:
        build: .
-       container_name: my-nextjs-ctr
+       container_name: nextjs-app
        ports:
           - "3000:3000"
        command:
