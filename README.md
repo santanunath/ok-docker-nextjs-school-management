@@ -7,8 +7,8 @@
 ## No DB. Static data in array
 
 ## Tech Stack
-- Nextjs v14.2.11
-- Reactjs v18.2.0
+- Nextjs v14.2.11 Reactjs v18.2.0
+- Nodejs (which version, see in Dockerfile)
       
 ## Nextjs v14/15 application structure 
 'public' and 'src/app' folders are created automatically.   
