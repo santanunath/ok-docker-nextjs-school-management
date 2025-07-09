@@ -2,6 +2,8 @@
 
 export let role = "admin";
 
+// teachers data
+// -------------
 export const teachersData = [
   {
     id: 1,
@@ -15,6 +17,7 @@ export const teachersData = [
     classes: ["1B", "2A", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 2,
     teacherId: "1234567890",
@@ -27,6 +30,7 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 3,
     teacherId: "1234567890",
@@ -39,6 +43,7 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 4,
     teacherId: "1234567890",
@@ -51,6 +56,7 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 5,
     teacherId: "1234567890",
@@ -63,6 +69,7 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 6,
     teacherId: "1234567890",
@@ -75,6 +82,7 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 7,
     teacherId: "1234567890",
@@ -87,6 +95,7 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 8,
     teacherId: "1234567890",
@@ -99,6 +108,7 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 9,
     teacherId: "1234567890",
@@ -111,6 +121,7 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 10,
     teacherId: "1234567890",
@@ -123,8 +134,14 @@ export const teachersData = [
     classes: ["5A", "4B", "3C"],
     address: "123 Main St, Anytown, USA",
   },
+  
 ];
 
+
+
+
+// students data
+// -------------
 export const studentsData = [
   {
     id: 1,
@@ -138,6 +155,7 @@ export const studentsData = [
     class: "1B",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 2,
     studentId: "1234567890",
@@ -150,6 +168,7 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 3,
     studentId: "1234567890",
@@ -162,6 +181,7 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 4,
     studentId: "1234567890",
@@ -174,6 +194,7 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 5,
     studentId: "1234567890",
@@ -186,6 +207,7 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 6,
     studentId: "1234567890",
@@ -198,6 +220,7 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 7,
     studentId: "1234567890",
@@ -210,6 +233,7 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 8,
     studentId: "1234567890",
@@ -222,6 +246,7 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 9,
     studentId: "1234567890",
@@ -234,6 +259,7 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 10,
     studentId: "1234567890",
@@ -246,8 +272,12 @@ export const studentsData = [
     class: "5A",
     address: "123 Main St, Anytown, USA",
   },
+  
 ];
 
+
+// parents data
+// -------------
 export const parentsData = [
   {
     id: 1,
@@ -257,6 +287,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 2,
     name: "Jane Doe",
@@ -265,6 +296,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 3,
     name: "Mike Geller",
@@ -273,6 +305,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 4,
     name: "Jay French",
@@ -281,6 +314,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 5,
     name: "Jane Smith",
@@ -289,6 +323,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 6,
     name: "Anna Santiago",
@@ -297,6 +332,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 7,
     name: "Allen Black",
@@ -305,6 +341,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 8,
     name: "Ophelia Castro",
@@ -313,6 +350,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 9,
     name: "Derek Briggs",
@@ -321,6 +359,7 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
   {
     id: 10,
     name: "John Glover",
@@ -329,61 +368,80 @@ export const parentsData = [
     phone: "1234567890",
     address: "123 Main St, Anytown, USA",
   },
+  
 ];
 
+
+
+// subjects data
+// -------------
 export const subjectsData = [
   {
     id: 1,
     name: "Math",
     teachers: ["Alice Phelps", "Russell Davidson"],
   },
+  
   {
     id: 2,
     name: "English",
     teachers: ["Manuel Becker", "Eddie Chavez"],
   },
+  
   {
     id: 3,
     name: "Physics",
     teachers: ["Lola Newman", "Darrell Delgado"],
   },
+  
   {
     id: 4,
     name: "Chemistry",
     teachers: ["Nathan Kelly", "Benjamin Snyder"],
   },
+  
   {
     id: 5,
     name: "Biology",
     teachers: ["Alma Benson", "Lina Collier"],
   },
+  
   {
     id: 6,
     name: "History",
     teachers: ["Hannah Bowman", "Betty Obrien"],
   },
+  
   {
     id: 7,
     name: "Geography",
     teachers: ["Lora French", "Sue Brady"],
   },
+  
   {
     id: 8,
     name: "Art",
     teachers: ["Harriet Alvarado", "Mayme Keller"],
   },
+  
   {
     id: 9,
     name: "Music",
     teachers: ["Gertrude Roy", "Rosa Singleton"],
   },
+  
   {
     id: 10,
     name: "Literature",
     teachers: ["Effie Lynch", "Brett Flowers"],
   },
+  
 ];
 
+
+
+// classes data
+// -------------
 export const classesData = [
   {
     id: 1,
@@ -392,6 +450,7 @@ export const classesData = [
     grade: 1,
     supervisor: "Joseph Padilla",
   },
+  
   {
     id: 2,
     name: "2B",
@@ -399,6 +458,7 @@ export const classesData = [
     grade: 2,
     supervisor: "Blake Joseph",
   },
+  
   {
     id: 3,
     name: "3C",
@@ -406,6 +466,7 @@ export const classesData = [
     grade: 3,
     supervisor: "Tom Bennett",
   },
+  
   {
     id: 4,
     name: "4B",
@@ -413,6 +474,7 @@ export const classesData = [
     grade: 4,
     supervisor: "Aaron Collins",
   },
+  
   {
     id: 5,
     name: "5A",
@@ -420,6 +482,7 @@ export const classesData = [
     grade: 5,
     supervisor: "Iva Frank",
   },
+  
   {
     id: 5,
     name: "5B",
@@ -427,6 +490,7 @@ export const classesData = [
     grade: 5,
     supervisor: "Leila Santos",
   },
+  
   {
     id: 7,
     name: "7A",
@@ -434,6 +498,7 @@ export const classesData = [
     grade: 7,
     supervisor: "Carrie Walton",
   },
+  
   {
     id: 8,
     name: "6B",
@@ -441,6 +506,7 @@ export const classesData = [
     grade: 6,
     supervisor: "Christopher Butler",
   },
+  
   {
     id: 9,
     name: "6C",
@@ -448,6 +514,7 @@ export const classesData = [
     grade: 6,
     supervisor: "Marc Miller",
   },
+  
   {
     id: 10,
     name: "6D",
@@ -455,8 +522,13 @@ export const classesData = [
     grade: 6,
     supervisor: "Ophelia Marsh",
   },
+  
 ];
 
+
+
+// lessons data
+// -------------
 export const lessonsData = [
   {
     id: 1,
@@ -464,62 +536,75 @@ export const lessonsData = [
     class: "1A",
     teacher: "Tommy Wise",
   },
+  
   {
     id: 2,
     subject: "English",
     class: "2A",
     teacher: "Rhoda Frank",
   },
+  
   {
     id: 3,
     subject: "Science",
     class: "3A",
     teacher: "Della Dunn",
   },
+  
   {
     id: 4,
     subject: "Social Studies",
     class: "1B",
     teacher: "Bruce Rodriguez",
   },
+  
   {
     id: 5,
     subject: "Art",
     class: "4A",
     teacher: "Birdie Butler",
   },
+  
   {
     id: 6,
     subject: "Music",
     class: "5A",
     teacher: "Bettie Oliver",
   },
+  
   {
     id: 7,
     subject: "History",
     class: "6A",
     teacher: "Herman Howard",
   },
+  
   {
     id: 8,
     subject: "Geography",
     class: "6B",
     teacher: "Lucinda Thomas",
   },
+  
   {
     id: 9,
     subject: "Physics",
     class: "6C",
     teacher: "Ronald Roberts",
   },
+  
   {
     id: 10,
     subject: "Chemistry",
     class: "4B",
     teacher: "Julia Pittman",
   },
+  
 ];
 
+
+// exams data
+// -------------
 export const examsData = [
   {
     id: 1,
@@ -528,6 +613,7 @@ export const examsData = [
     teacher: "Martha Morris",
     date: "2025-01-01",
   },
+  
   {
     id: 2,
     subject: "English",
@@ -535,6 +621,7 @@ export const examsData = [
     teacher: "Randall Garcia",
     date: "2025-01-01",
   },
+  
   {
     id: 3,
     subject: "Science",
@@ -542,6 +629,7 @@ export const examsData = [
     teacher: "Myrtie Scott",
     date: "2025-01-01",
   },
+  
   {
     id: 4,
     subject: "Social Studies",
@@ -549,6 +637,7 @@ export const examsData = [
     teacher: "Alvin Swanson",
     date: "2025-01-01",
   },
+  
   {
     id: 5,
     subject: "Art",
@@ -556,6 +645,7 @@ export const examsData = [
     teacher: "Mabelle Wallace",
     date: "2025-01-01",
   },
+  
   {
     id: 6,
     subject: "Music",
@@ -563,6 +653,7 @@ export const examsData = [
     teacher: "Dale Thompson",
     date: "2025-01-01",
   },
+  
   {
     id: 7,
     subject: "History",
@@ -570,6 +661,7 @@ export const examsData = [
     teacher: "Allie Conner",
     date: "2025-01-01",
   },
+  
   {
     id: 8,
     subject: "Geography",
@@ -577,6 +669,7 @@ export const examsData = [
     teacher: "Hunter Fuller",
     date: "2025-01-01",
   },
+  
   {
     id: 9,
     subject: "Physics",
@@ -584,6 +677,7 @@ export const examsData = [
     teacher: "Lois Lindsey",
     date: "2025-01-01",
   },
+  
   {
     id: 10,
     subject: "Chemistry",
@@ -591,8 +685,13 @@ export const examsData = [
     teacher: "Vera Soto",
     date: "2025-01-01",
   },
+  
 ];
 
+
+
+// assignments data
+// -------------
 export const assignmentsData = [
   {
     id: 1,
@@ -601,6 +700,7 @@ export const assignmentsData = [
     teacher: "Anthony Boone",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 2,
     subject: "English",
@@ -608,6 +708,7 @@ export const assignmentsData = [
     teacher: "Clifford Bowen",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 3,
     subject: "Science",
@@ -615,6 +716,7 @@ export const assignmentsData = [
     teacher: "Catherine Malone",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 4,
     subject: "Social Studies",
@@ -622,6 +724,7 @@ export const assignmentsData = [
     teacher: "Willie Medina",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 5,
     subject: "Art",
@@ -629,6 +732,7 @@ export const assignmentsData = [
     teacher: "Jose Ruiz",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 6,
     subject: "Music",
@@ -636,6 +740,7 @@ export const assignmentsData = [
     teacher: "Katharine Owens",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 7,
     subject: "History",
@@ -643,6 +748,7 @@ export const assignmentsData = [
     teacher: "Shawn Norman",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 8,
     subject: "Geography",
@@ -650,6 +756,7 @@ export const assignmentsData = [
     teacher: "Don Holloway",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 9,
     subject: "Physics",
@@ -657,6 +764,7 @@ export const assignmentsData = [
     teacher: "Franklin Gregory",
     dueDate: "2025-01-01",
   },
+  
   {
     id: 10,
     subject: "Chemistry",
@@ -664,8 +772,13 @@ export const assignmentsData = [
     teacher: "Danny Nguyen",
     dueDate: "2025-01-01",
   },
+  
 ];
 
+
+
+// results data
+// -------------
 export const resultsData = [
   {
     id: 1,
@@ -677,6 +790,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 2,
     subject: "English",
@@ -687,6 +801,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 3,
     subject: "Science",
@@ -697,6 +812,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 4,
     subject: "Social Studies",
@@ -707,6 +823,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 5,
     subject: "Art",
@@ -717,6 +834,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 6,
     subject: "Music",
@@ -727,6 +845,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 7,
     subject: "History",
@@ -737,6 +856,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 8,
     subject: "Geography",
@@ -747,6 +867,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 9,
     subject: "Physics",
@@ -757,6 +878,7 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
   {
     id: 10,
     subject: "Chemistry",
@@ -767,8 +889,13 @@ export const resultsData = [
     type: "exam",
     score: 90,
   },
+  
 ];
 
+
+
+// events data
+// -------------
 export const eventsData = [
   {
     id: 1,
@@ -778,6 +905,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 2,
     title: "Picnic",
@@ -786,6 +914,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 3,
     title: "Beach Trip",
@@ -794,6 +923,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 4,
     title: "Museum Trip",
@@ -802,6 +932,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 5,
     title: "Music Concert",
@@ -810,6 +941,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 6,
     title: "Magician Show",
@@ -818,6 +950,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 7,
     title: "Lake Trip",
@@ -826,6 +959,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 8,
     title: "Cycling Race",
@@ -834,6 +968,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 9,
     title: "Art Exhibition",
@@ -842,6 +977,7 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
   {
     id: 10,
     title: "Sports Tournament",
@@ -850,8 +986,13 @@ export const eventsData = [
     startTime: "10:00",
     endTime: "11:00",
   },
+  
 ];
 
+
+
+// announcements data
+// -------------
 export const announcementsData = [
   {
     id: 1,
@@ -859,64 +1000,78 @@ export const announcementsData = [
     class: "4A",
     date: "2025-01-01",
   },
+  
   {
     id: 2,
     title: "About 3A Math Test",
     class: "3A",
     date: "2025-01-01",
   },
+  
   {
     id: 3,
     title: "About 3B Math Test",
     class: "3B",
     date: "2025-01-01",
   },
+  
   {
     id: 4,
     title: "About 6A Math Test",
     class: "6A",
     date: "2025-01-01",
   },
+  
   {
     id: 5,
     title: "About 8C Math Test",
     class: "8C",
     date: "2025-01-01",
   },
+  
   {
     id: 6,
     title: "About 2A Math Test",
     class: "2A",
     date: "2025-01-01",
   },
+  
   {
     id: 7,
     title: "About 4C Math Test",
     class: "4C",
     date: "2025-01-01",
   },
+  
   {
     id: 8,
     title: "About 4B Math Test",
     class: "4B",
     date: "2025-01-01",
   },
+  
   {
     id: 9,
     title: "About 3C Math Test",
     class: "3C",
     date: "2025-01-01",
   },
+  
   {
     id: 10,
     title: "About 1C Math Test",
     class: "1C",
     date: "2025-01-01",
   },
+  
 ];
 
 
-// YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
+
+
+// YOU SHOULD CHANGE THE DATES OF THE EVENTS 
+// TO THE CURRENT DATE 
+// TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
   {
     title: "Math",
@@ -924,48 +1079,56 @@ export const calendarEvents = [
     start: new Date(2024, 7, 12, 8, 0),
     end: new Date(2024, 7, 12, 8, 45),
   },
+  
   {
     title: "English",
     allDay: false,
     start: new Date(2024, 7, 12, 9, 0),
     end: new Date(2024, 7, 12, 9, 45),
   },
+  
   {
     title: "Biology",
     allDay: false,
     start: new Date(2024, 7, 12, 10, 0),
     end: new Date(2024, 7, 12, 10, 45),
   },
+  
   {
     title: "Physics",
     allDay: false,
     start: new Date(2024, 7, 12, 11, 0),
     end: new Date(2024, 7, 12, 11, 45),
   },
+  
   {
     title: "Chemistry",
     allDay: false,
     start: new Date(2024, 7, 12, 13, 0),
     end: new Date(2024, 7, 12, 13, 45),
   },
+  
   {
     title: "History",
     allDay: false,
     start: new Date(2024, 7, 12, 14, 0),
     end: new Date(2024, 7, 12, 14, 45),
   },
+  
   {
     title: "English",
     allDay: false,
     start: new Date(2024, 7, 13, 9, 0),
     end: new Date(2024, 7, 13, 9, 45),
   },
+  
   {
     title: "Biology",
     allDay: false,
     start: new Date(2024, 7, 13, 10, 0),
     end: new Date(2024, 7, 13, 10, 45),
   },
+  
   {
     title: "Physics",
     allDay: false,
@@ -979,12 +1142,14 @@ export const calendarEvents = [
     start: new Date(2024, 7, 13, 14, 0),
     end: new Date(2024, 7, 13, 14, 45),
   },
+  
   {
     title: "Math",
     allDay: false,
     start: new Date(2024, 7, 14, 8, 0),
     end: new Date(2024, 7, 14, 8, 45),
   },
+  
   {
     title: "Biology",
     allDay: false,
