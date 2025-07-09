@@ -6,6 +6,21 @@
 
 ## No DB. Static data in array
 
+## Tech Stack
+- Nextjs v14.2.11
+- Reactjs v18.2.0
+      
+## Nextjs v14/15 application structure 
+'public' and 'src/app' folders are created automatically.   
+- all 'pages' in nextjs must be defined inside folder /src/app/
+- all APIs in nextjs must be defined inside folder /src/app/api/
+- all 'ui components' are defined inside folder /src/components/ 
+- db connection is defined inside folder /src/dbConfig/
+- all db model schema are defined inside folder /src/models/
+- all utilities (tokens, mailers) are defined inside folder /src/helpers/
+
+
+
 ## Getting Started
 
 First, run this 
